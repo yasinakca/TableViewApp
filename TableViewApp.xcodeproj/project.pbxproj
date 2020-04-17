@@ -13,6 +13,12 @@
 		315568662449AC6000E2518F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 315568642449AC6000E2518F /* Main.storyboard */; };
 		315568682449AC6200E2518F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 315568672449AC6200E2518F /* Assets.xcassets */; };
 		3155686B2449AC6200E2518F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 315568692449AC6200E2518F /* LaunchScreen.storyboard */; };
+		315568772449AC7400E2518F /* greatwall.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 315568722449AC7300E2518F /* greatwall.jpg */; };
+		315568782449AC7400E2518F /* stonehenge.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 315568732449AC7300E2518F /* stonehenge.jpg */; };
+		315568792449AC7400E2518F /* colosseum.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 315568742449AC7400E2518F /* colosseum.jpg */; };
+		3155687A2449AC7400E2518F /* kremlin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 315568752449AC7400E2518F /* kremlin.jpg */; };
+		3155687B2449AC7400E2518F /* tajmahal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 315568762449AC7400E2518F /* tajmahal.jpg */; };
+		3155687D2449ACC800E2518F /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3155687C2449ACC800E2518F /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,12 @@
 		315568672449AC6200E2518F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3155686A2449AC6200E2518F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3155686C2449AC6200E2518F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		315568722449AC7300E2518F /* greatwall.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = greatwall.jpg; sourceTree = "<group>"; };
+		315568732449AC7300E2518F /* stonehenge.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = stonehenge.jpg; sourceTree = "<group>"; };
+		315568742449AC7400E2518F /* colosseum.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = colosseum.jpg; sourceTree = "<group>"; };
+		315568752449AC7400E2518F /* kremlin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kremlin.jpg; sourceTree = "<group>"; };
+		315568762449AC7400E2518F /* tajmahal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tajmahal.jpg; sourceTree = "<group>"; };
+		3155687C2449ACC800E2518F /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +71,16 @@
 				3155685E2449AC6000E2518F /* AppDelegate.swift */,
 				315568602449AC6000E2518F /* SceneDelegate.swift */,
 				315568622449AC6000E2518F /* ViewController.swift */,
+				3155687C2449ACC800E2518F /* SecondViewController.swift */,
 				315568642449AC6000E2518F /* Main.storyboard */,
 				315568672449AC6200E2518F /* Assets.xcassets */,
 				315568692449AC6200E2518F /* LaunchScreen.storyboard */,
 				3155686C2449AC6200E2518F /* Info.plist */,
+				315568742449AC7400E2518F /* colosseum.jpg */,
+				315568722449AC7300E2518F /* greatwall.jpg */,
+				315568752449AC7400E2518F /* kremlin.jpg */,
+				315568732449AC7300E2518F /* stonehenge.jpg */,
+				315568762449AC7400E2518F /* tajmahal.jpg */,
 			);
 			path = TableViewApp;
 			sourceTree = "<group>";
@@ -125,9 +143,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				315568782449AC7400E2518F /* stonehenge.jpg in Resources */,
+				3155687A2449AC7400E2518F /* kremlin.jpg in Resources */,
 				3155686B2449AC6200E2518F /* LaunchScreen.storyboard in Resources */,
+				315568792449AC7400E2518F /* colosseum.jpg in Resources */,
 				315568682449AC6200E2518F /* Assets.xcassets in Resources */,
+				3155687B2449AC7400E2518F /* tajmahal.jpg in Resources */,
 				315568662449AC6000E2518F /* Main.storyboard in Resources */,
+				315568772449AC7400E2518F /* greatwall.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,6 +161,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3155687D2449ACC800E2518F /* SecondViewController.swift in Sources */,
 				315568632449AC6000E2518F /* ViewController.swift in Sources */,
 				3155685F2449AC6000E2518F /* AppDelegate.swift in Sources */,
 				315568612449AC6000E2518F /* SceneDelegate.swift in Sources */,
