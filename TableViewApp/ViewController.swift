@@ -62,6 +62,14 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
         chosenImage = imageArray[indexPath.row]
         performSegue(withIdentifier: "toSecondVC", sender: nil)
     }
+    
+    func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
+        if editingStyle == .delete {
+            self.nameArray.remove(at: indexPath.row)
+            self.imageArray.remove(at: indexPath.row)
+            tableView.deleteRows(at: [indexPath], with: UITableView.RowAnimation.fade)
+        }
+    }
 
 }
 
